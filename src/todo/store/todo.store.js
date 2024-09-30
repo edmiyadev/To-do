@@ -1,4 +1,4 @@
-import { Todo } from "../todos/models/todo.model";
+import { Todo } from "../models/todo.model";
 
 export const Filters = {
   All: "All",
@@ -17,7 +17,6 @@ const state = {
 
 const initStore = () => {
   loadStore();
-  console.log("InitStore🍋");
 };
 
 const loadStore = () => {

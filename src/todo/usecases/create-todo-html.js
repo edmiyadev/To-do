@@ -1,4 +1,4 @@
-import { Todo } from "../todo.model";
+import { Todo } from "../models/todo.model";
 
 /**
  *

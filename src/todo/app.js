@@ -1,7 +1,7 @@
 import html from "./app.html?raw";
-import todoStore, { Filters } from "../store/todo.store";
-import { renderTodos } from "./models/usecases";
-import { renderCountTodoPending } from "./models/usecases/render-todo-pending";
+import todoStore, { Filters } from "./store/todo.store";
+import { renderTodos } from "./usecases";
+import { renderCountTodoPending } from "./usecases/render-todo-pending";
 
 const elementIDs = {
   TodoList: ".todo-list",
